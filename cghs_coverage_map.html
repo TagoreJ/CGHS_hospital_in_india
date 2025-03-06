@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_578e2ebd7add2ccef298330f29dc8b31 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_578e2ebd7add2ccef298330f29dc8b31" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_578e2ebd7add2ccef298330f29dc8b31 = L.map(
+                "map_578e2ebd7add2ccef298330f29dc8b31",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8445dd6575b9c4f5f8c6ba4d973dd423 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8445dd6575b9c4f5f8c6ba4d973dd423.addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+            var circle_marker_dbac040fd8a706008f2aa19e127811c8 = L.circleMarker(
+                [23.0215374, 72.5800568],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_03c0b838f72081c4f6da86e730cf6246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdb88e48666ebf708ccd74970007750c = $(`<div id="html_bdb88e48666ebf708ccd74970007750c" style="width: 100.0%; height: 100.0%;">AHMEDABAD - Low Coverage</div>`)[0];
+                popup_03c0b838f72081c4f6da86e730cf6246.setContent(html_bdb88e48666ebf708ccd74970007750c);
+            
+        
+
+        circle_marker_dbac040fd8a706008f2aa19e127811c8.bindPopup(popup_03c0b838f72081c4f6da86e730cf6246)
+        ;
+
+        
+    
+    
+            var circle_marker_4e7e39eb31dafa6f29b195a9d218fc57 = L.circleMarker(
+                [12.98815675, 77.62260003796],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_1389db8c721e22aed8c8e122c6474f46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_595669588840cc25da9caa388d6e436c = $(`<div id="html_595669588840cc25da9caa388d6e436c" style="width: 100.0%; height: 100.0%;">BENGALURU - High Coverage</div>`)[0];
+                popup_1389db8c721e22aed8c8e122c6474f46.setContent(html_595669588840cc25da9caa388d6e436c);
+            
+        
+
+        circle_marker_4e7e39eb31dafa6f29b195a9d218fc57.bindPopup(popup_1389db8c721e22aed8c8e122c6474f46)
+        ;
+
+        
+    
+    
+            var circle_marker_4b5a6f957ef5c71fc2380b30ff7c778b = L.circleMarker(
+                [23.2584857, 77.401989],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_b56b50e46b39cf0cbb76c2616bb2f085 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c34517953a18adaa0f3fea2067ec8d1f = $(`<div id="html_c34517953a18adaa0f3fea2067ec8d1f" style="width: 100.0%; height: 100.0%;">BHOPAL - Low Coverage</div>`)[0];
+                popup_b56b50e46b39cf0cbb76c2616bb2f085.setContent(html_c34517953a18adaa0f3fea2067ec8d1f);
+            
+        
+
+        circle_marker_4b5a6f957ef5c71fc2380b30ff7c778b.bindPopup(popup_b56b50e46b39cf0cbb76c2616bb2f085)
+        ;
+
+        
+    
+    
+            var circle_marker_6827e00b9e7a23f8a3b29362260c97cc = L.circleMarker(
+                [20.2602964, 85.8394521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_b51bf3967afe9ba9ea67a93b315675cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a017e45971bf7334887ad3ba68271a5 = $(`<div id="html_7a017e45971bf7334887ad3ba68271a5" style="width: 100.0%; height: 100.0%;">BHUBANESHWAR - Low Coverage</div>`)[0];
+                popup_b51bf3967afe9ba9ea67a93b315675cb.setContent(html_7a017e45971bf7334887ad3ba68271a5);
+            
+        
+
+        circle_marker_6827e00b9e7a23f8a3b29362260c97cc.bindPopup(popup_b51bf3967afe9ba9ea67a93b315675cb)
+        ;
+
+        
+    
+    
+            var circle_marker_75c031a33973e7e7f59019271118fe09 = L.circleMarker(
+                [30.7334421, 76.7797143],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_ab9de29b5a49f7f38fb0b2ce65e3f7ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2da1f1bb068076a9da98e6fbbba52c1 = $(`<div id="html_b2da1f1bb068076a9da98e6fbbba52c1" style="width: 100.0%; height: 100.0%;">CHANDIGARH - Low Coverage</div>`)[0];
+                popup_ab9de29b5a49f7f38fb0b2ce65e3f7ce.setContent(html_b2da1f1bb068076a9da98e6fbbba52c1);
+            
+        
+
+        circle_marker_75c031a33973e7e7f59019271118fe09.bindPopup(popup_ab9de29b5a49f7f38fb0b2ce65e3f7ce)
+        ;
+
+        
+    
+    
+            var circle_marker_f99c351af675a7789658c0b2c407cb58 = L.circleMarker(
+                [13.0836939, 80.270186],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_fe577695749bda3c76e046d245f08580 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b067701e48b6ed71faf5cf177f498d4 = $(`<div id="html_8b067701e48b6ed71faf5cf177f498d4" style="width: 100.0%; height: 100.0%;">CHENNAI - High Coverage</div>`)[0];
+                popup_fe577695749bda3c76e046d245f08580.setContent(html_8b067701e48b6ed71faf5cf177f498d4);
+            
+        
+
+        circle_marker_f99c351af675a7789658c0b2c407cb58.bindPopup(popup_fe577695749bda3c76e046d245f08580)
+        ;
+
+        
+    
+    
+            var circle_marker_0262218d9332ca0b14d081f6b8d6cca4 = L.circleMarker(
+                [30.3255646, 78.0436813],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_958e3d5d9daee6921fc99a5073b7b69a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ef313e989a4baa8513cbfa59628c3b1 = $(`<div id="html_1ef313e989a4baa8513cbfa59628c3b1" style="width: 100.0%; height: 100.0%;">DEHRADUN - Low Coverage</div>`)[0];
+                popup_958e3d5d9daee6921fc99a5073b7b69a.setContent(html_1ef313e989a4baa8513cbfa59628c3b1);
+            
+        
+
+        circle_marker_0262218d9332ca0b14d081f6b8d6cca4.bindPopup(popup_958e3d5d9daee6921fc99a5073b7b69a)
+        ;
+
+        
+    
+    
+            var circle_marker_a325efa172f7e7c6f9fe406960c90b4f = L.circleMarker(
+                [26.1805978, 91.753943],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_174eaefcb01d8005fa550c30799e5e82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89c17e5bfc8b5e883828f8245289a858 = $(`<div id="html_89c17e5bfc8b5e883828f8245289a858" style="width: 100.0%; height: 100.0%;">GUWAHATI - Low Coverage</div>`)[0];
+                popup_174eaefcb01d8005fa550c30799e5e82.setContent(html_89c17e5bfc8b5e883828f8245289a858);
+            
+        
+
+        circle_marker_a325efa172f7e7c6f9fe406960c90b4f.bindPopup(popup_174eaefcb01d8005fa550c30799e5e82)
+        ;
+
+        
+    
+    
+            var circle_marker_bb2e5d5b6c6194c3c75b2a269943ab45 = L.circleMarker(
+                [17.360589, 78.4740613],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_554cf4ca9c956d672e02d001b8ddebaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_142a7f83d967cf108406ffda60de72c7 = $(`<div id="html_142a7f83d967cf108406ffda60de72c7" style="width: 100.0%; height: 100.0%;">HYDERABAD - High Coverage</div>`)[0];
+                popup_554cf4ca9c956d672e02d001b8ddebaf.setContent(html_142a7f83d967cf108406ffda60de72c7);
+            
+        
+
+        circle_marker_bb2e5d5b6c6194c3c75b2a269943ab45.bindPopup(popup_554cf4ca9c956d672e02d001b8ddebaf)
+        ;
+
+        
+    
+    
+            var circle_marker_c99c0299be02094999147b6aa675e0c4 = L.circleMarker(
+                [23.1701522, 79.9324505],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_26902f33a30f508171d2e97622b2a3c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b78fee1098cbc7b44552b765aa0bb61e = $(`<div id="html_b78fee1098cbc7b44552b765aa0bb61e" style="width: 100.0%; height: 100.0%;">JABALPUR - Low Coverage</div>`)[0];
+                popup_26902f33a30f508171d2e97622b2a3c6.setContent(html_b78fee1098cbc7b44552b765aa0bb61e);
+            
+        
+
+        circle_marker_c99c0299be02094999147b6aa675e0c4.bindPopup(popup_26902f33a30f508171d2e97622b2a3c6)
+        ;
+
+        
+    
+    
+            var circle_marker_8da6af2136b0e3ba50c338cdc4ad2c02 = L.circleMarker(
+                [26.9154576, 75.8189817],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_98f04749665907cd8b0e6eefd5bac5dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4920dd490b18cf86c47a4dc958d50d41 = $(`<div id="html_4920dd490b18cf86c47a4dc958d50d41" style="width: 100.0%; height: 100.0%;">JAIPUR - Low Coverage</div>`)[0];
+                popup_98f04749665907cd8b0e6eefd5bac5dd.setContent(html_4920dd490b18cf86c47a4dc958d50d41);
+            
+        
+
+        circle_marker_8da6af2136b0e3ba50c338cdc4ad2c02.bindPopup(popup_98f04749665907cd8b0e6eefd5bac5dd)
+        ;
+
+        
+    
+    
+            var circle_marker_c0edc234c66296c4223383e69e7a6338 = L.circleMarker(
+                [26.4609135, 80.3217588],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_62c621553b7c7ded9b497c31fe3310ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e4cfd0b5e7c625120c8bb4a6a8e4883 = $(`<div id="html_4e4cfd0b5e7c625120c8bb4a6a8e4883" style="width: 100.0%; height: 100.0%;">KANPUR - Low Coverage</div>`)[0];
+                popup_62c621553b7c7ded9b497c31fe3310ee.setContent(html_4e4cfd0b5e7c625120c8bb4a6a8e4883);
+            
+        
+
+        circle_marker_c0edc234c66296c4223383e69e7a6338.bindPopup(popup_62c621553b7c7ded9b497c31fe3310ee)
+        ;
+
+        
+    
+    
+            var circle_marker_9f7e4719785bc5c07a369fe1dab81469 = L.circleMarker(
+                [22.5726459, 88.3638953],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_f503cf411e17295b9e8f5881a8f56fa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da43159f4a6bf82397416c2daa37a0e6 = $(`<div id="html_da43159f4a6bf82397416c2daa37a0e6" style="width: 100.0%; height: 100.0%;">KOLKATA - High Coverage</div>`)[0];
+                popup_f503cf411e17295b9e8f5881a8f56fa1.setContent(html_da43159f4a6bf82397416c2daa37a0e6);
+            
+        
+
+        circle_marker_9f7e4719785bc5c07a369fe1dab81469.bindPopup(popup_f503cf411e17295b9e8f5881a8f56fa1)
+        ;
+
+        
+    
+    
+            var circle_marker_56750f7fc396bed25475cc75aa5b4d2a = L.circleMarker(
+                [26.8381, 80.9346001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_eb9754d9ec441270d5352fa061c3501d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ab84a41918708b4ac581c9677332d4d = $(`<div id="html_9ab84a41918708b4ac581c9677332d4d" style="width: 100.0%; height: 100.0%;">LUCKNOW - Low Coverage</div>`)[0];
+                popup_eb9754d9ec441270d5352fa061c3501d.setContent(html_9ab84a41918708b4ac581c9677332d4d);
+            
+        
+
+        circle_marker_56750f7fc396bed25475cc75aa5b4d2a.bindPopup(popup_eb9754d9ec441270d5352fa061c3501d)
+        ;
+
+        
+    
+    
+            var circle_marker_98b43889acec67201d3c7f8e999fbe4d = L.circleMarker(
+                [29.0018557, 77.76796714992041],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_9f716f27e301a71a1b28e857d53ed495 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b44af9a74354fcf44d518facf9bc45a = $(`<div id="html_5b44af9a74354fcf44d518facf9bc45a" style="width: 100.0%; height: 100.0%;">MEERUT - Low Coverage</div>`)[0];
+                popup_9f716f27e301a71a1b28e857d53ed495.setContent(html_5b44af9a74354fcf44d518facf9bc45a);
+            
+        
+
+        circle_marker_98b43889acec67201d3c7f8e999fbe4d.bindPopup(popup_9f716f27e301a71a1b28e857d53ed495)
+        ;
+
+        
+    
+    
+            var circle_marker_cb0c8280d7e55b9ab78f1dd5c9b2a41d = L.circleMarker(
+                [19.054999, 72.8692035],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_753c29c1f8f0146ad057c5c9ae1e4434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4bead595fe7b5775e808eefa6af7a71 = $(`<div id="html_a4bead595fe7b5775e808eefa6af7a71" style="width: 100.0%; height: 100.0%;">MUMBAI - High Coverage</div>`)[0];
+                popup_753c29c1f8f0146ad057c5c9ae1e4434.setContent(html_a4bead595fe7b5775e808eefa6af7a71);
+            
+        
+
+        circle_marker_cb0c8280d7e55b9ab78f1dd5c9b2a41d.bindPopup(popup_753c29c1f8f0146ad057c5c9ae1e4434)
+        ;
+
+        
+    
+    
+            var circle_marker_ca474b4a50aa4141ff69c490da46d989 = L.circleMarker(
+                [21.1498134, 79.0820556],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_5140ee46f26da3c33857b873ff55f03c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a728f596d963cb5f4f92af4f290f1f2e = $(`<div id="html_a728f596d963cb5f4f92af4f290f1f2e" style="width: 100.0%; height: 100.0%;">NAGPUR - Low Coverage</div>`)[0];
+                popup_5140ee46f26da3c33857b873ff55f03c.setContent(html_a728f596d963cb5f4f92af4f290f1f2e);
+            
+        
+
+        circle_marker_ca474b4a50aa4141ff69c490da46d989.bindPopup(popup_5140ee46f26da3c33857b873ff55f03c)
+        ;
+
+        
+    
+    
+            var circle_marker_e6217ab33179e45c924c38ddd12e2daa = L.circleMarker(
+                [25.6093239, 85.1235252],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_d1b4d7bea2e5fa82fb987dbe9b6d6f4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f8bfe87bc9c024218e04b8aceb0c009 = $(`<div id="html_6f8bfe87bc9c024218e04b8aceb0c009" style="width: 100.0%; height: 100.0%;">PATNA - Low Coverage</div>`)[0];
+                popup_d1b4d7bea2e5fa82fb987dbe9b6d6f4b.setContent(html_6f8bfe87bc9c024218e04b8aceb0c009);
+            
+        
+
+        circle_marker_e6217ab33179e45c924c38ddd12e2daa.bindPopup(popup_d1b4d7bea2e5fa82fb987dbe9b6d6f4b)
+        ;
+
+        
+    
+    
+            var circle_marker_153c374fe86a13fa34c4d10479564a6d = L.circleMarker(
+                [25.4381302, 81.8338005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_89ce940beaf5ad1f469991e67e72203d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bcee9ffdd14e7c085154707ecc6cb96 = $(`<div id="html_7bcee9ffdd14e7c085154707ecc6cb96" style="width: 100.0%; height: 100.0%;">PRAYAGRAJ - Low Coverage</div>`)[0];
+                popup_89ce940beaf5ad1f469991e67e72203d.setContent(html_7bcee9ffdd14e7c085154707ecc6cb96);
+            
+        
+
+        circle_marker_153c374fe86a13fa34c4d10479564a6d.bindPopup(popup_89ce940beaf5ad1f469991e67e72203d)
+        ;
+
+        
+    
+    
+            var circle_marker_7d048203f305e902c6e164574f5741d1 = L.circleMarker(
+                [18.5213738, 73.8545071],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_73b420704d4fe8aaeb1475f0891337ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1986eefc4c52701afc64d457e08b2053 = $(`<div id="html_1986eefc4c52701afc64d457e08b2053" style="width: 100.0%; height: 100.0%;">PUNE - Low Coverage</div>`)[0];
+                popup_73b420704d4fe8aaeb1475f0891337ec.setContent(html_1986eefc4c52701afc64d457e08b2053);
+            
+        
+
+        circle_marker_7d048203f305e902c6e164574f5741d1.bindPopup(popup_73b420704d4fe8aaeb1475f0891337ec)
+        ;
+
+        
+    
+    
+            var circle_marker_67780a64083b6e05aff352d39bbf830e = L.circleMarker(
+                [23.3700501, 85.3250387],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_c701ba2b4f8bacf2618ddab13f82116e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35a6382314d22f23a692d68e79d85c46 = $(`<div id="html_35a6382314d22f23a692d68e79d85c46" style="width: 100.0%; height: 100.0%;">RANCHI - Low Coverage</div>`)[0];
+                popup_c701ba2b4f8bacf2618ddab13f82116e.setContent(html_35a6382314d22f23a692d68e79d85c46);
+            
+        
+
+        circle_marker_67780a64083b6e05aff352d39bbf830e.bindPopup(popup_c701ba2b4f8bacf2618ddab13f82116e)
+        ;
+
+        
+    
+    
+            var circle_marker_1185b82a2f4c6e1584c665a7b0c8aa02 = L.circleMarker(
+                [25.5760446, 91.8825282],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_ae9cb8ffce315add103bf3964d586a5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be516b009eff587135f617fe2540fb63 = $(`<div id="html_be516b009eff587135f617fe2540fb63" style="width: 100.0%; height: 100.0%;">SHILLONG - Low Coverage</div>`)[0];
+                popup_ae9cb8ffce315add103bf3964d586a5d.setContent(html_be516b009eff587135f617fe2540fb63);
+            
+        
+
+        circle_marker_1185b82a2f4c6e1584c665a7b0c8aa02.bindPopup(popup_ae9cb8ffce315add103bf3964d586a5d)
+        ;
+
+        
+    
+    
+            var circle_marker_3fdf8d9ea23b05a4c30ebffc6fe140db = L.circleMarker(
+                [8.4882267, 76.947551],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_578e2ebd7add2ccef298330f29dc8b31);
+        
+    
+        var popup_8c9953826a098516721e8724cb01a564 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7a77596074b841f1450835728d412aa = $(`<div id="html_f7a77596074b841f1450835728d412aa" style="width: 100.0%; height: 100.0%;">TRIVANDRUM - Low Coverage</div>`)[0];
+                popup_8c9953826a098516721e8724cb01a564.setContent(html_f7a77596074b841f1450835728d412aa);
+            
+        
+
+        circle_marker_3fdf8d9ea23b05a4c30ebffc6fe140db.bindPopup(popup_8c9953826a098516721e8724cb01a564)
+        ;
+
+        
+    
+</script>
+</html>
