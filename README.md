@@ -34,6 +34,9 @@ Copy
 Ensure you have Python 3.x installed, then install the required packages:  
 ```sh
 pip install pandas scikit-learn folium geopy streamlit
+
+---
+
 2️⃣ Run the Clustering Script
 sh
 Copy
